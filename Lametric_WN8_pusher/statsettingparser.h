@@ -9,7 +9,7 @@
 
 #include "searchstat.h"
 
-#define MAX_LINE_LENGTH 4096
+#define MAX_STAT_SETTINGS_LINE_LENGTH 4096
 #define MAX_PARAMETER_LENGTH 512
 
 using namespace std;

@@ -23,7 +23,7 @@ void StatSettingParser::init()
 
 void StatSettingParser::parseFile()
 {
-    char lineBuffer[MAX_LINE_LENGTH];
+    char lineBuffer[MAX_STAT_SETTINGS_LINE_LENGTH];
 
     //maybe put those in a map for easier iteration
     char _searchTermBegin[MAX_PARAMETER_LENGTH];
@@ -35,7 +35,7 @@ void StatSettingParser::parseFile()
     char _decimalPlaces[MAX_PARAMETER_LENGTH];
 
     stats.clear();
-    while (inFile.getline(lineBuffer, MAX_LINE_LENGTH)) {
+    while (inFile.getline(lineBuffer, MAX_STAT_SETTINGS_LINE_LENGTH)) {
         sscanf(lineBuffer, "startConfine: %s <|> endConfine: %s <|> displayName: %s <|> postfix: %s <|> iconA: %s <|> iconB: %s <|> decimalPlaces: %s <|>", _searchTermBegin, _searchTermEnd, _displayName, _postfix, _iconA, _iconB, _decimalPlaces);
         string searchTermBegin(_searchTermBegin);
         string searchTermEnd(_searchTermEnd);
