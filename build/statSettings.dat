@@ -1,0 +1,4 @@
+startConfine: <span>WN8</span> <|> endConfine: </div> <|> displayName: WN8 <|> postfix: _ <|> iconA: i16425 <|> iconB: i16425 <|> decimalPlaces: 0 <|>
+startConfine: <span>Recent_WN8</span> <|> endConfine: </div> <|> displayName: RecWN8 <|> postfix: _ <|> iconA: i16425 <|> iconB: i16425 <|> decimalPlaces: 0 <|>
+startConfine: <span>Win_Rate</span> <|> endConfine: </div> <|> displayName: WR <|> postfix: % <|> iconA: i16425 <|> iconB: i16425 <|> decimalPlaces: 2 <|>
+startConfine: <span>Recent_WR</span> <|> endConfine: </div> <|> displayName: RecWR <|> postfix: % <|> iconA: i16425 <|> iconB: i16425 <|> decimalPlaces: 2 <|>
