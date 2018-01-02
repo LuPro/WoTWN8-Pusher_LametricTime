@@ -5,3 +5,4 @@ Makefile
 *.user
 *.user*
 Lametric_WN8_pusher
+lametric_pusher.sh
